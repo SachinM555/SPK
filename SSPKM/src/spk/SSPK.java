@@ -26,8 +26,6 @@ public class SSPK {
         }
        
         driver.close();
-       
-        // exit the program explicitly
         System.exit(0);
     }
 
