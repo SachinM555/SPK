@@ -16,7 +16,6 @@ public class SPK {
       driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
       driver.get("http://www.google.co.in");
       System.out.println("SPK");
-      
       driver.manage().window().maximize();
       driver.quit();
       
