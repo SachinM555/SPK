@@ -18,11 +18,10 @@ public class SPK {
       System.out.println("SPK");
       driver.manage().window().maximize();
       System.out.println(driver.getTitle());
-    
-      
       driver.quit();
       
       
-     
+      
+      
   }
 }
