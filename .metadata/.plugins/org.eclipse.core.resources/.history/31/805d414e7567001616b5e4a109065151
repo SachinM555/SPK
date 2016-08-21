@@ -15,8 +15,6 @@ public class SPK {
       driver = new FirefoxDriver();
       driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
       driver.get("http://www.google.co.in");
-      
-      
       System.out.println("SPK");
       driver.manage().window().maximize();
       System.out.println(driver.getTitle());
